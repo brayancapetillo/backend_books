@@ -29,7 +29,7 @@ pool.getConnection((err, connection) => {
         // console.log('DB is connected ' + `${data.database}`);
         console.log(chalk.hex('#655DDB').bold("DB ")+chalk.hex('#FA3055').bold(`${data.database}`)+chalk.hex('#655DDB').bold("     is connected "))
     }else{
-        console.log(chalk.bgHex('#000').hex("#fff").bold("La base de datos ") + chalk.bgHex("#000").hex("#00EBAE").bold(`${data.database} `)+chalk.bgHex('#000').hex("#fff").bold("    no existe o existe un problema de conexion "))}
+        console.log(chalk.bgHex('#000').hex("#ffffff").bold("La base de datos ") + chalk.bgHex("#000").hex("#00EBAE").bold(`${data.database} `)+chalk.bgHex('#000').hex("#fff").bold("    no existe o existe un problema de conexion "))}
     
 
     return;
